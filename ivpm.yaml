@@ -1,0 +1,27 @@
+
+package:
+  name: cocotb-dpi
+
+  #  setup-deps:
+  #- ninja
+  #- cython
+
+  dep-sets:
+
+  - name: default
+    deps:
+    - name: pytest
+      src: pypi
+    - name: fusesoc
+      src: pypi
+    - name: cocotb-stub-sim
+      url: https://github.com/fvutils/cocotb-stub-sim.git
+
+  - name: default-dev
+    deps: []
+
+
+
+
+
+
